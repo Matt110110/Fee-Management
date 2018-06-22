@@ -10,10 +10,14 @@ public class AdminLogin extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String uname = request.getParameter("uid");
         String pass = request.getParameter("pass");
-        if (uname.equals("Admin") && pass.equals("admin")) {
-            response.sendRedirect("AdminMain.html");
-        } else {
-            response.sendRedirect("index.jsp");
+        try {
+            if (DBAdmin.verify(uname, pass)) {
+                response.sendRedirect("AdminMain.html");
+            } else {
+                response.sendRedirect("index.jsp");
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 
