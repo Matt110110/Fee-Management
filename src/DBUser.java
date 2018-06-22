@@ -1,6 +1,6 @@
 import java.sql.*;
 
-public class DBAdmin {
+public class DBUser {
     static Connection cn;
     static PreparedStatement ps;
 
@@ -9,7 +9,7 @@ public class DBAdmin {
         try {
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             cn = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=FeeManagement;user=Admin;password=Pass@123");
-            ps = cn.prepareStatement("SELECT * FROM adminCreds WHERE userId=? AND password=?");
+            ps = cn.prepareStatement("SELECT * FROM userDetails WHERE userId=? AND password=?");
             ps.setString(1, username);
             ps.setString(2, password);
             ResultSet rs = ps.executeQuery();
