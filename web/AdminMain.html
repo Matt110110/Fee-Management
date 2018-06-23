@@ -1,10 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        * {
+            margin: 0;
+        }
+        html, body {
+            height: 100%;
+        }
+        .page-wrap {
+            min-height: 100%;
+            /* equal to footer height */
+            margin-bottom: -142px;
+        }
+        .page-wrap:after {
+            content: "";
+            display: block;
+        }
+        .site-footer, .page-wrap:after {
+            /* .push must be the same height as footer */
+            height: 142px;
+        }
+        .site-footer {
+            background: orange;
+        }
+
+    </style>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Admin</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-<h1>Welcome brother.</h1>
+<div class="limiter">
+<nav class="w3-bar w3-black w3-large w3-border">
+    <div class="w3-content w3-margin-top">
+        <a class="w3-bar-item w3-hover-none w3-text-white w3-button w3-padding-16 w3-hover-grey" href="index.jsp" style="text-decoration: none">Fee Report</a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+            <li><a href="index.jsp">Home</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="page-wrap container-login100">
+    <div class="wrap-login100">
+        <div class="login100-pic">
+            <img src="https://images.vexels.com/media/users/3/131263/isolated/preview/af6816ec67ec51da6b275a4aa08d236c-c-rculo-icono-de-un-candado-by-vexels.png">
+        </div>
+    <ol>
+        <h1>Admin Home</h1>
+        <li class="txt2">Add Student</li>
+        <li class="txt2">View Student</li>
+        <li class="txt2">Edit Student</li>
+        <li class="txt2">Search Student</li>
+        <li class="txt2">Delete Student</li>
+        <li class="txt2">View Dues</li>
+    </ol>
+    </div>
+</div>
+<footer class="w3-container w3-black w3-center w3-margin-top site-footer">
+    <p>&copy;Copyright 2018. Fee management corp.</p>
+    <button class="w3-btn" id="facebook">
+        <i class="fa fa-facebook-official w3-hover-opacity w3-xlarge"></i>
+    </button>
+    <button class="w3-btn" id="insta">
+        <i class="fa fa-instagram w3-hover-opacity w3-xlarge"></i>
+    </button>
+    <button class="w3-btn" id="twitter">
+        <i class="fa fa-twitter w3-hover-opacity w3-xlarge"></i>
+    </button>
+    <button class="w3-btn" id="linkedIn">
+        <i class="fa fa-linkedin w3-hover-opacity w3-xlarge"></i>
+    </button>
+</footer>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
