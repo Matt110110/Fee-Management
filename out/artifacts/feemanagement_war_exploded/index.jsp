@@ -67,7 +67,7 @@
             <center>
                 <img src="http://krmangalam.edu.in/wp-content/uploads/2018/02/Student-login-icon.png" class="img-responsive w3-hover-sepia">
                 <h2>User Login</h2>
-                <a href="./loginUser.html">
+                <a href='./loginUser.html'>
                     <button class="btn-primary btn-lg btn-block">Log in</button>
                 </a>
             </center>

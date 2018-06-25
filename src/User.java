@@ -1,93 +1,66 @@
 public class User {
-    private int rollno;
-    private String name,email,sex,course;
-    private int fee,paid,due;
-    private String address,contact;
+    private int id;
+    private String fname, lname, email,password,contact, userName;
 
     public User() {}
 
-    public User(String name, String email, String sex, String course, int fee, int paid, int due, String address,
-                    String contact) {
+    public User(String fname, String lname, String email, String password, String contact) {
         super();
-        this.name = name;
+        this.fname = fname;
+        this.lname = lname;
         this.email = email;
-        this.sex = sex;
-        this.course = course;
-        this.fee = fee;
-        this.paid = paid;
-        this.due = due;
-        this.address = address;
+        this.password = password;
         this.contact = contact;
     }
 
-    public User(int rollno, String name, String email, String sex, String course, int fee, int paid, int due,
-                   String address, String contact) {
+    public User(int id, String fname, String lname, String email, String password, String contact) {
         super();
-        this.rollno = rollno;
-        this.name = name;
+        this.id = id;
+        this.fname = fname;
+        this.lname = lname;
         this.email = email;
-        this.sex = sex;
-        this.course = course;
-        this.fee = fee;
-        this.paid = paid;
-        this.due = due;
-        this.address = address;
+        this.password = password;
         this.contact = contact;
     }
 
-    public int getRollno() {
-        return rollno;
+    public int getId() {
+        return id;
     }
-    public void setRollno(int rollno) {
-        this.rollno = rollno;
+    public void setId(int id) {
+        this.id = id;
     }
-    public String getName() {
-        return name;
+    public String getFname() {
+        return fname;
     }
-    public void setName(String name) {
-        this.name = name;
+    public void setFname(String name) {
+        this.fname = name;
     }
+    public String getLname() {
+        return lname;
+    }
+
+    public void setLname(String lname) {
+        this.lname = lname;
+    }
+
     public String getEmail() {
         return email;
     }
     public void setEmail(String email) {
         this.email = email;
     }
-    public String getSex() {
-        return sex;
+    public String getPassword() {
+        return password;
     }
-    public void setSex(String sex) {
-        this.sex = sex;
+    public String getUserName() {
+        return userName;
     }
-    public String getCourse() {
-        return course;
+
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
-    public void setCourse(String course) {
-        this.course = course;
-    }
-    public int getFee() {
-        return fee;
-    }
-    public void setFee(int fee) {
-        this.fee = fee;
-    }
-    public int getPaid() {
-        return paid;
-    }
-    public void setPaid(int paid) {
-        this.paid = paid;
-    }
-    public int getDue() {
-        return due;
-    }
-    public void setDue(int due) {
-        this.due = due;
-    }
-    public String getAddress() {
-        return address;
-    }
-    public void setAddress(String address) {
-        this.address = address;
+    public void setPassword(String password) {
+        this.password = password;
     }
     public String getContact() {
         return contact;

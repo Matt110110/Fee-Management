@@ -58,7 +58,7 @@
                 </div>
                 <div class="wrap-input100">
                     <span class="label-input100">Phone number</span>
-                    <input class="input100" type="number" name="name" placeholder="1234567890">
+                    <input class="input100" type="number" name="nunber" placeholder="1234567890">
                     <span class="focus-input100"></span>
                 </div>
 

@@ -20,4 +20,15 @@ public class DBUser {
         }
         return status;
     }
+
+    public static boolean validateUsername(User u) throws ClassNotFoundException, SQLException {
+        Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+        cn = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=FeeManagement;user=Admin;password=Pass@123");
+        ps = cn.prepareStatement("SELECT * FROM userDetails WHERE userId=?");
+        ps.setString(1, u.getUserName());
+        ResultSet rs = ps.executeQuery();
+        boolean b = rs.next();
+        cn.close();
+        return b;
+    }
 }
