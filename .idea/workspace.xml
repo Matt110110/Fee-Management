@@ -7,66 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25858cc4-727a-4e36-b3aa-98dd0ceaff29" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/web/UserSignup.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css1/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css1/util.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/Linearicons-Free-v1.0.0/icon-font.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/iconic/css/material-design-iconic-font.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/iconic/css/material-design-iconic-font.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/iconic/fonts/Material-Design-Iconic-Font.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/iconic/fonts/Material-Design-Iconic-Font.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/iconic/fonts/Material-Design-Iconic-Font.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/iconic/fonts/Material-Design-Iconic-Font.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/bg-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/icons/map-marker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/map-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/animate/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/animsition/css/animsition.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/animsition/css/animsition.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/animsition/js/animsition.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/animsition/js/animsition.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/bootstrap/js/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/bootstrap/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/bootstrap/js/tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/countdowntime/countdowntime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/css-hamburgers/hamburgers.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/css-hamburgers/hamburgers.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/daterangepicker/daterangepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/daterangepicker/daterangepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/daterangepicker/moment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/daterangepicker/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/jquery/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/perfect-scrollbar/perfect-scrollbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/perfect-scrollbar/perfect-scrollbar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/select2/select2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/select2/select2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/select2/select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor1/select2/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SignupUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/feemanagement_war_exploded/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/feemanagement_war_exploded/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/feemanagement_war_exploded/loginUser.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/feemanagement_war_exploded/loginUser.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/loginUser.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/loginUser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feemanagement.iml" beforeDir="false" afterPath="$PROJECT_DIR$/feemanagement.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/feemanagement_war_exploded/UserSignup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/feemanagement_war_exploded/UserSignup.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/feemanagement/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/feemanagement/AdminLogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/feemanagement/DBAdmin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/feemanagement/DBUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/feemanagement/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/feemanagement/UserLogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/UserSignup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/UserSignup.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,20 +46,8 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
+            <state relative-caret-position="1292">
               <caret line="76" column="61" selection-start-line="76" selection-start-column="61" selection-end-line="76" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserMain.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/UserMain.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -116,21 +55,44 @@
       <file leaf-file-name="UserSignup.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/UserSignup.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="629">
+              <caret line="37" column="72" selection-start-line="37" selection-start-column="62" selection-end-line="37" selection-end-column="72" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/css1/main.css">
+      <file leaf-file-name="SignupUser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SignupUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3417">
-              <caret selection-end-line="532" selection-end-column="1" />
+            <state relative-caret-position="102">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBUser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DBUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminLogin.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AdminLogin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="20" selection-start-column="20" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserLogin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UserLogin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -157,38 +119,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBAdmin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DBAdmin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="loginAdmin.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/loginAdmin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="306">
               <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loginUser.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="loginUser.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/loginUser.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="61" column="58" lean-forward="true" selection-start-line="61" selection-start-column="58" selection-end-line="61" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="227" column="13" lean-forward="true" selection-start-line="227" selection-start-column="13" selection-end-line="227" selection-end-column="13" />
+            <state relative-caret-position="1037">
+              <caret line="61" column="58" selection-start-line="61" selection-start-column="58" selection-end-line="61" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -221,16 +165,17 @@
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/UserMain.html" />
         <option value="$PROJECT_DIR$/web/loginAdmin.html" />
-        <option value="$PROJECT_DIR$/src/DBUser.java" />
         <option value="$PROJECT_DIR$/src/DBAdmin.java" />
         <option value="$PROJECT_DIR$/src/UserLogin.java" />
         <option value="$PROJECT_DIR$/src/User.java" />
         <option value="$PROJECT_DIR$/src/Admin.java" />
         <option value="$PROJECT_DIR$/web/UserMain.html" />
         <option value="$PROJECT_DIR$/web/AdminMain.html" />
-        <option value="$PROJECT_DIR$/web/UserSignup.jsp" />
         <option value="$PROJECT_DIR$/web/css1/main.css" />
         <option value="$PROJECT_DIR$/web/loginUser.html" />
+        <option value="$PROJECT_DIR$/web/UserSignup.jsp" />
+        <option value="$PROJECT_DIR$/src/SignupUser.java" />
+        <option value="$PROJECT_DIR$/src/DBUser.java" />
       </list>
     </option>
   </component>
@@ -250,9 +195,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="40" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -265,6 +210,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -274,38 +221,19 @@
             </path>
             <path>
               <item name="feemanagement" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feemanagement" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="feemanagement" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feemanagement" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="feemanagement" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feemanagement" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="feemanagement" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feemanagement" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="css1" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Microsoft JDBC Driver 6.4 for SQL Server/sqljdbc_6.4/enu/mssql-jdbc-6.4.0.jre8.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -376,7 +304,6 @@
       <listeners />
     </configuration>
     <configuration name="Tomcat 8.5.31" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.31" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.xhtml" />
       <deployment>
         <artifact name="feemanagement:war exploded">
           <settings>
@@ -392,6 +319,39 @@
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64686" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -432,7 +392,10 @@
       <workItem from="1529752804699" duration="4638000" />
       <workItem from="1529810496753" duration="749000" />
       <workItem from="1529816622156" duration="969000" />
-      <workItem from="1529842933047" duration="1555000" />
+      <workItem from="1529842933047" duration="6465000" />
+      <workItem from="1529853897233" duration="600000" />
+      <workItem from="1529928783720" duration="948000" />
+      <workItem from="1529932083310" duration="1203000" />
     </task>
     <task id="LOCAL-00001" summary="Cosmetic changes for the index.jsp">
       <created>1529660890521</created>
@@ -459,40 +422,44 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22577000" />
+    <option name="totallyTimeSpent" value="30238000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Application Servers" order="7" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="JSF" order="3" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32881" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32985386" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32985386" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4906542" visible="true" weight="0.25266525" />
-      <window_info id="Web" order="2" sideWeight="0.50934577" side_tool="true" visible="true" weight="0.25266525" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
-      <window_info anchor="right" id="JSF" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4867807" visible="true" weight="0.18390192" />
+      <window_info id="Web" order="2" sideWeight="0.5132193" side_tool="true" weight="0.18390192" />
+      <window_info anchor="right" id="Theme Preview" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32985386" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -508,13 +475,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="User home created." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Admin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -587,9 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -756,34 +713,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/Us.html" />
-    <entry file="file://$PROJECT_DIR$/src/DBUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AdminLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UserLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/AdminMain.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
           <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -803,8 +736,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="227" column="13" lean-forward="true" selection-start-line="227" selection-start-column="13" selection-end-line="227" selection-end-column="13" />
+        <state relative-caret-position="3859">
+          <caret line="227" column="13" selection-start-line="227" selection-start-column="13" selection-end-line="227" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/UserMain.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="76" column="61" selection-start-line="76" selection-start-column="61" selection-end-line="76" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/loginUser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="58" selection-start-line="61" selection-start-column="58" selection-end-line="61" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UserLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/loginAdmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SignupUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/UserSignup.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="72" selection-start-line="37" selection-start-column="62" selection-end-line="37" selection-end-column="72" />
         </state>
       </provider>
     </entry>
@@ -826,45 +811,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/UserSignup.jsp">
+    <entry file="file://$PROJECT_DIR$/src/DBUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/UserMain.html">
+    <entry file="file://$PROJECT_DIR$/src/AdminLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="76" column="61" selection-start-line="76" selection-start-column="61" selection-end-line="76" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/loginAdmin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/loginUser.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="61" column="58" lean-forward="true" selection-start-line="61" selection-start-column="58" selection-end-line="61" selection-end-column="58" />
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>
