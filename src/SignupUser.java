@@ -19,11 +19,19 @@ public class SignupUser extends HttpServlet {
             String passwordVerification = request.getParameter("repeat-pass");
             String contact = request.getParameter("number");
             if (password.equals(passwordVerification)) {
-                User user = new User(firstname, lastname, email, password, contact);
+                User user = new User(firstname, lastname, username, email, password, contact);
                 try {
                     boolean b = DBUser.validateUsername(user);
-                    if (!b) {
+                    if (b) {
                         response.sendRedirect("InvalidUname.html");
+                    } else {
+                        if (DBUser.enterData(user) == 1) {
+                            // TODO : Add proper html pages instead of printing using PrintWriter
+                            out.println("<html><body bgcolor='cyan'><center><h1>Records entered successfully.</h1><a href='./loginUser.html'><button class='btn-primary btn-lg btn-block'>Return...</button></a></body></html>");
+                        } else {
+                            // TODO : Add proper html pages instead of printing using PrintWriter
+                            out.println("<html><body bgcolor='red'><center><h1>Records could not be entered</h1><a href='./loginUser.html'><button class='btn-primary btn-lg btn-block'>Return...</button></a></body></html>");
+                        }
                     }
                 } catch (SQLException | ClassNotFoundException e) {
                     e.printStackTrace();

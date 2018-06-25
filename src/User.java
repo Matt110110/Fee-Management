@@ -4,11 +4,12 @@ public class User {
 
     public User() {}
 
-    public User(String fname, String lname, String email, String password, String contact) {
+    public User(String fname, String lname, String userName, String email, String password, String contact) {
         super();
         this.fname = fname;
         this.lname = lname;
         this.email = email;
+        this.userName = userName;
         this.password = password;
         this.contact = contact;
     }

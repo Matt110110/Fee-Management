@@ -31,4 +31,17 @@ public class DBUser {
         cn.close();
         return b;
     }
+
+    public static int enterData(User u) throws SQLException, ClassNotFoundException {
+        Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+        cn = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=FeeManagement;user=Admin;password=Pass@123");
+        ps = cn.prepareStatement("INSERT INTO userDetails VALUES (?,?,?,?,?,?)");
+        ps.setString(1, u.getUserName());
+        ps.setString(2, u.getFname());
+        ps.setString(3, u.getLname());
+        ps.setString(4, u.getEmail());
+        ps.setString(5, u.getPassword());
+        ps.setString(6, u.getContact());
+        return ps.executeUpdate();
+    }
 }
