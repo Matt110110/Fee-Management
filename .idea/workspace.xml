@@ -7,13 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25858cc4-727a-4e36-b3aa-98dd0ceaff29" name="Default" comment="Add student created">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/feemanagement_war_exploded/WEB-INF/classes/AddStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/feemanagement_war_exploded/WEB-INF/classes/AddStudent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/feemanagement_war_exploded/WEB-INF/classes/DBUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/feemanagement_war_exploded/WEB-INF/classes/DBUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/feemanagement_war_exploded/WEB-INF/classes/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/feemanagement_war_exploded/WEB-INF/classes/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/feemanagement/AddStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/feemanagement/AddStudent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/feemanagement/DBUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/feemanagement/DBUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/feemanagement/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/feemanagement/Student.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AddStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddStudent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DBUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DBUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/addStudent.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/addStudent.html" afterDir="false" />
@@ -51,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBUser.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DBUser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DBUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+            <state relative-caret-position="373">
+              <caret line="66" column="34" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -111,8 +104,8 @@
       <file leaf-file-name="addStudent.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/addStudent.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="92" lean-forward="true" selection-start-line="22" selection-start-column="92" selection-end-line="22" selection-end-column="92" />
+            <state relative-caret-position="135">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
               <folding>
                 <element signature="n#style#0;n#textarea#0;n#td#1;n#tr#8;n#table#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -120,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddStudent.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AddStudent.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AddStudent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+            <state relative-caret-position="102">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -179,10 +172,10 @@
         <option value="$PROJECT_DIR$/src/SignupUser.java" />
         <option value="$PROJECT_DIR$/web/loginUser.html" />
         <option value="$PROJECT_DIR$/web/UserMain.html" />
-        <option value="$PROJECT_DIR$/web/addStudent.html" />
         <option value="$PROJECT_DIR$/src/Student.java" />
-        <option value="$PROJECT_DIR$/src/AddStudent.java" />
         <option value="$PROJECT_DIR$/src/DBUser.java" />
+        <option value="$PROJECT_DIR$/web/addStudent.html" />
+        <option value="$PROJECT_DIR$/src/AddStudent.java" />
       </list>
     </option>
   </component>
@@ -417,7 +410,7 @@
       <workItem from="1529942102709" duration="5528000" />
       <workItem from="1529999494601" duration="604000" />
       <workItem from="1530009992790" duration="227000" />
-      <workItem from="1530011435652" duration="9606000" />
+      <workItem from="1530011435652" duration="10667000" />
     </task>
     <task id="LOCAL-00001" summary="Cosmetic changes for the index.jsp">
       <created>1529660890521</created>
@@ -451,10 +444,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51491000" />
+    <option name="totallyTimeSpent" value="52552000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -476,7 +470,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32985386" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32985386" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32985386" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32985386" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48598132" visible="true" weight="0.18390192" />
       <window_info id="Web" order="2" sideWeight="0.5140187" side_tool="true" weight="0.18390192" />
@@ -859,10 +853,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/DBUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="66" column="34" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/addStudent.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="92" lean-forward="true" selection-start-line="22" selection-start-column="92" selection-end-line="22" selection-end-column="92" />
+        <state relative-caret-position="135">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
           <folding>
             <element signature="n#style#0;n#textarea#0;n#td#1;n#tr#8;n#table#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -871,15 +872,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AddStudent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DBUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+        <state relative-caret-position="102">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
         </state>
       </provider>
     </entry>

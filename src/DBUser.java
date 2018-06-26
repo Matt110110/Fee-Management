@@ -64,7 +64,7 @@ public class DBUser {
         ps.setString(5, s.getCourse());
         ps.setString(9, s.getAddress());
         ps.setString(10, s.getContact());
-        ps.setInt(1, getRoll() + 1);
+        ps.setInt(1, s.getRollno());
         ps.setInt(6, s.getFee());
         ps.setInt(7, s.getPaid());
         ps.setInt(8, s.getDue());
