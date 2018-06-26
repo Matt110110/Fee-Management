@@ -16,11 +16,11 @@ public class SignupUser extends HttpServlet {
             if (password.equals(passwordVerification)) {
                 User user = new User(request.getParameter("fname"), request.getParameter("lname"), request.getParameter("username"), request.getParameter("email"), password, request.getParameter("number"));
                 try {
-                    boolean b = DBUser.validateUsername(user);
+                    boolean b = DBAdmin.validateUsername(user);
                     if (b) {
                         response.sendRedirect("InvalidUname.html");
                     } else {
-                        if (DBUser.enterData(user) == 1) {
+                        if (DBAdmin.enterData(user) == 1) {
                             // TODO : Add proper html pages instead of printing using PrintWriter
                             out.println("<html><body bgcolor='cyan'><center><h1>Records entered successfully.</h1><a href='./loginUser.html'><button class='btn-primary btn-lg btn-block'>Return...</button></a></body></html>");
                         } else {
