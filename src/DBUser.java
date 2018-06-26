@@ -44,4 +44,30 @@ public class DBUser {
         ps.setString(6, u.getContact());
         return ps.executeUpdate();
     }
+
+    public static int getRoll() throws SQLException, ClassNotFoundException {
+        Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+        cn = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=FeeManagement;user=Admin;password=Pass@123");
+        ps = cn.prepareStatement("SELECT COUNT(*) FROM studDetails");
+        ResultSet rs = ps.executeQuery();
+        rs.next();
+        return rs.getInt(1);
+    }
+
+    public static int enterData(Student s) throws SQLException, ClassNotFoundException {
+        Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+        cn = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=FeeManagement;user=Admin;password=Pass@123");
+        ps = cn.prepareStatement("INSERT INTO studDetails VALUES (?,?,?,?,?,?,?,?,?,?)");
+        ps.setString(2, s.getName());
+        ps.setString(3, s.getEmail());
+        ps.setString(4, s.getSex());
+        ps.setString(5, s.getCourse());
+        ps.setString(9, s.getAddress());
+        ps.setString(10, s.getContact());
+        ps.setInt(1, getRoll() + 1);
+        ps.setInt(6, s.getFee());
+        ps.setInt(7, s.getPaid());
+        ps.setInt(8, s.getDue());
+        return ps.executeUpdate();
+    }
 }
