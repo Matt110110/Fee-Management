@@ -11,15 +11,10 @@ import java.sql.SQLException;
 public class SignupUser extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         PrintWriter out = response.getWriter();
-            String username = request.getParameter("username");
-            String firstname = request.getParameter("fname");
-            String lastname = request.getParameter("lname");
-            String email = request.getParameter("email");
             String password = request.getParameter("pass");
             String passwordVerification = request.getParameter("repeat-pass");
-            String contact = request.getParameter("number");
             if (password.equals(passwordVerification)) {
-                User user = new User(firstname, lastname, username, email, password, contact);
+                User user = new User(request.getParameter("fname"), request.getParameter("lname"), request.getParameter("username"), request.getParameter("email"), password, request.getParameter("number"));
                 try {
                     boolean b = DBUser.validateUsername(user);
                     if (b) {

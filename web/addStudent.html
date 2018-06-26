@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Student</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+<h1>Enter the student details:</h1>
+<form action="AddStudent" method="post">
+    <div class="container-login100">
+        <div class="wrap-login100">
+    <table>
+        <tr><td>Name:</td><td><input type="text" name="fname" required placeholder="First name"/></td></tr>
+        <tr><td>Name:</td><td><input type="text" name="lname" required placeholder="Last name"/></td></tr>
+        <tr><td>Email:</td><td><input type="email" name="email" required placeholder="abc@xyz.com"/></td></tr>
+        <tr><td>Sex:</td><td>
+            <input type="radio" name="sex" value="M"/> Male
+            <input type="radio" name="sex" value="F"/> Female
+            <input type="radio" name="sex" value="O"/> Others
+        </td></tr>
+        <tr><td>Course:</td><td>
+            <select name="course">
+                <option>Java</option>
+                <option>C#</option>
+                <option>C++</option>
+                <option>PHP</option>
+                <option>Android</option>
+                <option>Javascript</option>
+                <option>Python</option>
+            </select>
+        </td></tr>
+        <tr><td>Fee:</td><td><input type="number" name="fee" placeholder="0000"/></td></tr>
+        <tr><td>Paid:</td><td><input type="number" name="paid" placeholder="0000"/></td></tr>
+        <tr><td>Due:</td><td><input type="number" name="due" placeholder="0000"/></td></tr>
+        <tr><td>Address:</td><td><textarea name="address" style="width:300px;height:100px;"></textarea></td></tr>
+        <tr><td>Contact No:</td><td><input type="text" name="contact" placeholder="9876543210"/></td></tr>
+        <tr><td colspan="2" align="center"><input type="submit" class="btn btn-default" value="Save Student"/></td></tr>
+    </table>
+        </div>
+    </div>
+</form>
+<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<script src="vendor/bootstrap/js/popper.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="vendor/select2/select2.min.js"></script>
+<script src="vendor/tilt/tilt.jquery.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
