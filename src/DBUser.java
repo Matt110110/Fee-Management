@@ -34,7 +34,7 @@ public class DBUser {
 
     public static boolean isCorrectRoll(Student s) throws SQLException, ClassNotFoundException {
         Connection cn = createConnection();
-        ps = cn.prepareStatement("SELECT * FROM studDetails WHERE rollNo=?");
+        ps = cn.prepareStatement("SELECT (*) FROM studDetails WHERE rollNo=?");
         ps.setInt(1, s.getRollno());
         ResultSet rs = ps.executeQuery();
         boolean b = rs.next();
@@ -57,5 +57,26 @@ public class DBUser {
         ps.setInt(7, s.getPaid());
         ps.setInt(8, s.getDue());
         return ps.executeUpdate();
+    }
+
+    public static Student searchStudent(Student s) throws SQLException, ClassNotFoundException {
+        Connection cn = createConnection();
+        ps = cn.prepareStatement("CREATE * FROM studDetails WHERE rollNo=(?)");
+        ps.setInt(1, s.getRollno());
+        // TODO : add logic
+        ResultSet rs = ps.executeQuery();
+        while (rs.next()) {
+            s.setName(rs.getString(2));
+            s.setEmail(rs.getString(3));
+            s.setSex(rs.getString(4));
+            s.setCourse(rs.getString(5));
+            s.setFee(rs.getInt(6));
+            s.setPaid(rs.getInt(7));
+            s.setDue(rs.getInt(8));
+            s.setAddress(rs.getString(9));
+            s.setContact(rs.getString(10));
+        }
+        cn.close();
+        return s;
     }
 }

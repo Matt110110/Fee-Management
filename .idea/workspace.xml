@@ -7,12 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25858cc4-727a-4e36-b3aa-98dd0ceaff29" name="Default" comment="Add student created">
-      <change afterPath="$PROJECT_DIR$/web/searchStudent.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DBAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DBAdmin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DBUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DBUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/UserMain.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/UserMain.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/addStudent.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/addStudent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchStudent.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,14 +61,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="searchStudent.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="searchStudent.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/searchStudent.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="20" column="8317" selection-start-line="20" selection-start-column="8317" selection-end-line="20" selection-end-column="8317" />
+            <state relative-caret-position="479">
+              <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
               <folding>
+                <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchStudent.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SearchStudent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="16" column="167" selection-start-line="16" selection-start-column="167" selection-end-line="16" selection-end-column="167" />
             </state>
           </provider>
         </entry>
@@ -89,8 +95,8 @@
       <file leaf-file-name="DBUser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DBUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+            <state relative-caret-position="757">
+              <caret line="78" column="19" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -136,11 +142,12 @@
         <option value="$PROJECT_DIR$/web/WrongPassword.html" />
         <option value="$PROJECT_DIR$/src/UserLogin.java" />
         <option value="$PROJECT_DIR$/src/AdminLogin.java" />
-        <option value="$PROJECT_DIR$/src/DBUser.java" />
         <option value="$PROJECT_DIR$/src/DBAdmin.java" />
         <option value="$PROJECT_DIR$/web/UserMain.html" />
         <option value="$PROJECT_DIR$/web/addStudent.html" />
         <option value="$PROJECT_DIR$/web/searchStudent.html" />
+        <option value="$PROJECT_DIR$/src/DBUser.java" />
+        <option value="$PROJECT_DIR$/src/SearchStudent.java" />
       </list>
     </option>
   </component>
@@ -378,7 +385,7 @@
       <workItem from="1530011435652" duration="10667000" />
       <workItem from="1530027310162" duration="4182000" />
       <workItem from="1530069264350" duration="18000" />
-      <workItem from="1530121888639" duration="3034000" />
+      <workItem from="1530121888639" duration="5240000" />
     </task>
     <task id="LOCAL-00001" summary="Cosmetic changes for the index.jsp">
       <created>1529660890521</created>
@@ -412,10 +419,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59810000" />
+    <option name="totallyTimeSpent" value="62016000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
@@ -437,10 +445,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32985386" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32985386" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32985386" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32985386" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48598132" visible="true" weight="0.19029851" />
-      <window_info id="Web" order="6" sideWeight="0.5140187" side_tool="true" weight="0.18390192" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48538622" visible="true" weight="0.19029851" />
+      <window_info id="Web" order="6" sideWeight="0.5146138" side_tool="true" visible="true" weight="0.19029851" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -465,7 +473,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Add student created" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Us.html" />
     <entry file="file://$PROJECT_DIR$/web/loginAdmin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -782,13 +789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DBUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/addStudent.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -805,11 +805,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/searchStudent.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="20" column="8317" selection-start-line="20" selection-start-column="8317" selection-end-line="20" selection-end-column="8317" />
+        <state relative-caret-position="479">
+          <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
           <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DBUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="757">
+          <caret line="78" column="19" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SearchStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="167" selection-start-line="16" selection-start-column="167" selection-end-line="16" selection-end-column="167" />
         </state>
       </provider>
     </entry>
