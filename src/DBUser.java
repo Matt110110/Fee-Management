@@ -1,14 +1,17 @@
 import java.sql.*;
 
 public class DBUser {
-    static Connection cn;
     static PreparedStatement ps;
+
+    private static Connection createConnection() throws SQLException, ClassNotFoundException {
+        Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+        return DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=FeeManagement;user=Admin;password=Pass@123");
+    }
 
     public static boolean verify(String username, String password) {
         boolean status = false;
         try {
-            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-            cn = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=FeeManagement;user=Admin;password=Pass@123");
+            Connection cn = createConnection();
             ps = cn.prepareStatement("SELECT * FROM userDetails WHERE userId=? AND password=?");
             ps.setString(1, username);
             ps.setString(2, password);
@@ -22,8 +25,7 @@ public class DBUser {
     }
 
     public static int getRoll() throws SQLException, ClassNotFoundException {
-        Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-        cn = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=FeeManagement;user=Admin;password=Pass@123");
+        Connection cn = createConnection();
         ps = cn.prepareStatement("SELECT COUNT(*) FROM studDetails");
         ResultSet rs = ps.executeQuery();
         rs.next();
@@ -31,8 +33,7 @@ public class DBUser {
     }
 
     public static boolean isCorrectRoll(Student s) throws SQLException, ClassNotFoundException {
-        Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-        cn = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=FeeManagement;user=Admin;password=Pass@123");
+        Connection cn = createConnection();
         ps = cn.prepareStatement("SELECT * FROM studDetails WHERE rollNo=?");
         ps.setInt(1, s.getRollno());
         ResultSet rs = ps.executeQuery();
@@ -43,8 +44,7 @@ public class DBUser {
     }
 
     public static int enterData(Student s) throws SQLException, ClassNotFoundException {
-        Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-        cn = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=FeeManagement;user=Admin;password=Pass@123");
+        Connection cn = createConnection();
         ps = cn.prepareStatement("INSERT INTO studDetails VALUES (?,?,?,?,?,?,?,?,?,?)");
         ps.setString(2, s.getName());
         ps.setString(3, s.getEmail());
