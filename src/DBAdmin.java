@@ -1,7 +1,7 @@
 import java.sql.*;
 
 public class DBAdmin {
-    static PreparedStatement ps;
+    private static PreparedStatement ps;
 
     private static Connection createConnection() throws SQLException, ClassNotFoundException {
         Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
