@@ -7,6 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25858cc4-727a-4e36-b3aa-98dd0ceaff29" name="Default" comment="Add student created">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/feemanagement_war_exploded/WEB-INF/classes/DBUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/feemanagement_war_exploded/WEB-INF/classes/DBUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/feemanagement/DBUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/feemanagement/DBUser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DBUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DBUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SearchStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchStudent.java" afterDir="false" />
     </list>
@@ -78,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/src/SearchStudent.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="16" column="167" selection-start-line="16" selection-start-column="167" selection-end-line="16" selection-end-column="167" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -95,8 +98,8 @@
       <file leaf-file-name="DBUser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DBUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="757">
-              <caret line="78" column="19" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
+            <state relative-caret-position="203">
+              <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -385,7 +388,7 @@
       <workItem from="1530011435652" duration="10667000" />
       <workItem from="1530027310162" duration="4182000" />
       <workItem from="1530069264350" duration="18000" />
-      <workItem from="1530121888639" duration="5240000" />
+      <workItem from="1530121888639" duration="5718000" />
     </task>
     <task id="LOCAL-00001" summary="Cosmetic changes for the index.jsp">
       <created>1529660890521</created>
@@ -419,11 +422,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62016000" />
+    <option name="totallyTimeSpent" value="62494000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
@@ -446,9 +448,9 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32985386" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32985386" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32985386" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48538622" visible="true" weight="0.19029851" />
-      <window_info id="Web" order="6" sideWeight="0.5146138" side_tool="true" visible="true" weight="0.19029851" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32985386" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48442367" visible="true" weight="0.19029851" />
+      <window_info id="Web" order="6" sideWeight="0.5155763" side_tool="true" visible="true" weight="0.19029851" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -816,15 +818,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DBUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="757">
-          <caret line="78" column="19" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
+        <state relative-caret-position="203">
+          <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SearchStudent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="16" column="167" selection-start-line="16" selection-start-column="167" selection-end-line="16" selection-end-column="167" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
