@@ -39,7 +39,6 @@ public class DBUser {
         ResultSet rs = ps.executeQuery();
         boolean b = rs.next();
         cn.close();
-        System.out.println(b);
         return b;
     }
 

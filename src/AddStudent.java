@@ -12,9 +12,7 @@ public class AddStudent extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         int roll = Integer.parseInt(request.getParameter("roll"));
-        // TODO : Create a check for valid roll number and add roll number
         try {
-            System.out.println(roll);
             Student s = new Student(roll, request.getParameter("name"), request.getParameter("email"), request.getParameter("sex"), request.getParameter("course"), Integer.parseInt(request.getParameter("fee")), Integer.parseInt(request.getParameter("paid")), Integer.parseInt(request.getParameter("due")), request.getParameter("address"), request.getParameter("contact"));
 
             if (!DBUser.isCorrectRoll(s)) {

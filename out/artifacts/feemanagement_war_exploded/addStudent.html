@@ -16,35 +16,98 @@
 <body>
 <div class="container-login100">
     <div class="wrap-login100">
-        <form action="AddStudent" method="post">
+        <div class="login100-pic js-tilt" data-tilt>
+            <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiPgo8Y2lyY2xlIHN0eWxlPSJmaWxsOiM5ODMyNjI7IiBjeD0iMjU2IiBjeT0iMjU2IiByPSIyNTYiLz4KPHBhdGggc3R5bGU9ImZpbGw6IzY2MkU1NzsiIGQ9Ik01MTEuOTM2LDI2MS4wMjhMMzg4LjQwOSwxMzcuNWwtMzguMDE4LDE3Ljk0N2wtNTQuOTI4LTU0LjkyOEw4My4zNDEsMjY1LjUwMWw0Ny4yMTgsNDcuMjE4ICBsLTE1LjcyOSw4Ny41NDdsMTA5LjgyMSwxMDkuODIxQzIzNC45MjYsNTExLjM0MiwyNDUuMzg2LDUxMiwyNTYsNTEyQzM5NS43MDQsNTEyLDUwOS4yNTYsNDAwLjA5LDUxMS45MzYsMjYxLjAyOHoiLz4KPGc+Cgk8cG9seWdvbiBzdHlsZT0iZmlsbDojRkY2ODM4OyIgcG9pbnRzPSIzODguNDA5LDI5MS41MzYgMzYzLjQwOSwyOTEuNTM2IDM2My40MDksMTYyLjUgMjQyLjM1LDE2Mi41IDI0Mi4zNSwxMzcuNSAzODguNDA5LDEzNy41ICAgICAiLz4KCTxwb2x5Z29uIHN0eWxlPSJmaWxsOiNGRjY4Mzg7IiBwb2ludHM9IjI2MC44ODksNDAwLjI2NiAxMTQuODMsNDAwLjI2NiAxMTQuODMsMjQ2LjIzIDEzOS44MywyNDYuMjMgMTM5LjgzLDM3NS4yNjYgICAgMjYwLjg4OSwzNzUuMjY2ICAiLz4KPC9nPgo8ZWxsaXBzZSBzdHlsZT0iZmlsbDojRkZGRkZGOyIgY3g9IjMzNS45IiBjeT0iMjkxLjE2IiByeD0iNzUuMjUiIHJ5PSIyMy4yODQiLz4KPGc+Cgk8cGF0aCBzdHlsZT0iZmlsbDojRTBFMEUwOyIgZD0iTTMzNS45MDUsMjY3Ljg3MmMtMC4wOCwwLTAuMTU4LDAuMDAyLTAuMjM4LDAuMDAydjQ2LjU2NGMwLjA4LDAsMC4xNTgsMC4wMDIsMC4yMzgsMC4wMDIgICBjNDEuNTU4LDAsNzUuMjQ3LTEwLjQyNSw3NS4yNDctMjMuMjg0UzM3Ny40NjMsMjY3Ljg3MiwzMzUuOTA1LDI2Ny44NzJ6Ii8+Cgk8cGF0aCBzdHlsZT0iZmlsbDojRTBFMEUwOyIgZD0iTTI2MC42NTgsMzE1LjQ0NGMwLDEyLjg1OSwzMy42ODksMjMuMjg0LDc1LjI0NywyMy4yODRzNzUuMjQ3LTEwLjQyNSw3NS4yNDctMjMuMjg0di0yNC4yODkgICBjMCwxMi44NTktMzMuNjg5LDIzLjI4NC03NS4yNDcsMjMuMjg0cy03NS4yNDctMTAuNDI1LTc1LjI0Ny0yMy4yODRWMzE1LjQ0NHoiLz4KPC9nPgo8cGF0aCBzdHlsZT0iZmlsbDojQzBDMEMwOyIgZD0iTTMzNS45MDUsMzE0LjQ0Yy0wLjA4LDAtMC4xNTgtMC4wMDItMC4yMzgtMC4wMDJ2MjQuMjg5YzAuMDgsMCwwLjE1OCwwLjAwMiwwLjIzOCwwLjAwMiAgYzQxLjU1OCwwLDc1LjI0Ny0xMC40MjUsNzUuMjQ3LTIzLjI4NHYtMjQuMjg5QzQxMS4xNTIsMzA0LjAxNSwzNzcuNDYzLDMxNC40NCwzMzUuOTA1LDMxNC40NHoiLz4KPHBhdGggc3R5bGU9ImZpbGw6I0UwRTBFMDsiIGQ9Ik0yNjAuNjU4LDM0OC4yMjdjMCwxMi44NTksMzMuNjg5LDIzLjI4NCw3NS4yNDcsMjMuMjg0czc1LjI0Ny0xMC40MjUsNzUuMjQ3LTIzLjI4NHYtMjQuMjg5ICBjMCwxMi44NTktMzMuNjg5LDIzLjI4NC03NS4yNDcsMjMuMjg0cy03NS4yNDctMTAuNDI1LTc1LjI0Ny0yMy4yODRWMzQ4LjIyN3oiLz4KPHBhdGggc3R5bGU9ImZpbGw6I0MwQzBDMDsiIGQ9Ik0zMzUuOTA1LDM0Ny4yMjJjLTAuMDgsMC0wLjE1OC0wLjAwMi0wLjIzOC0wLjAwMnYyNC4yODljMC4wOCwwLDAuMTU4LDAuMDAyLDAuMjM4LDAuMDAyICBjNDEuNTU4LDAsNzUuMjQ3LTEwLjQyNSw3NS4yNDctMjMuMjg0di0yNC4yODlDNDExLjE1MiwzMzYuNzk4LDM3Ny40NjMsMzQ3LjIyMiwzMzUuOTA1LDM0Ny4yMjJ6Ii8+CjxwYXRoIHN0eWxlPSJmaWxsOiNFMEUwRTA7IiBkPSJNMjYwLjY1OCwzODEuMDFjMCwxMi44NTksMzMuNjg5LDIzLjI4NCw3NS4yNDcsMjMuMjg0czc1LjI0Ny0xMC40MjUsNzUuMjQ3LTIzLjI4NHYtMjQuMjg5ICBjMCwxMi44NTktMzMuNjg5LDIzLjI4NC03NS4yNDcsMjMuMjg0cy03NS4yNDctMTAuNDI1LTc1LjI0Ny0yMy4yODRWMzgxLjAxeiIvPgo8cGF0aCBzdHlsZT0iZmlsbDojQzBDMEMwOyIgZD0iTTMzNS45MDUsMzgwLjAwNWMtMC4wOCwwLTAuMTU4LTAuMDAyLTAuMjM4LTAuMDAydjI0LjI4OWMwLjA4LDAsMC4xNTgsMC4wMDIsMC4yMzgsMC4wMDIgIGM0MS41NTgsMCw3NS4yNDctMTAuNDI1LDc1LjI0Ny0yMy4yODR2LTI0LjI4OUM0MTEuMTUyLDM2OS41ODEsMzc3LjQ2MywzODAuMDA1LDMzNS45MDUsMzgwLjAwNXoiLz4KPHBhdGggc3R5bGU9ImZpbGw6I0UwRTBFMDsiIGQ9Ik0yNjAuNjU4LDQxMy43OTNjMCwxMi44NTksMzMuNjg5LDIzLjI4NCw3NS4yNDcsMjMuMjg0czc1LjI0Ny0xMC40MjUsNzUuMjQ3LTIzLjI4NHYtMjQuMjg5ICBjMCwxMi44NTktMzMuNjg5LDIzLjI4NC03NS4yNDcsMjMuMjg0cy03NS4yNDctMTAuNDI1LTc1LjI0Ny0yMy4yODRWNDEzLjc5M3oiLz4KPHBhdGggc3R5bGU9ImZpbGw6I0MwQzBDMDsiIGQ9Ik0zMzUuOTA1LDQxMi43ODhjLTAuMDgsMC0wLjE1OC0wLjAwMi0wLjIzOC0wLjAwMnYyNC4yODljMC4wOCwwLDAuMTU4LDAuMDAyLDAuMjM4LDAuMDAyICBjNDEuNTU4LDAsNzUuMjQ3LTEwLjQyNCw3NS4yNDctMjMuMjg0di0yNC4yODlDNDExLjE1Miw0MDIuMzY0LDM3Ny40NjMsNDEyLjc4OCwzMzUuOTA1LDQxMi43ODh6Ii8+Cjxwb2x5Z29uIHN0eWxlPSJmaWxsOiNFMEUwRTA7IiBwb2ludHM9IjIzMy4zMiwzMTMuMjE5IDE0NS40ODQsMzEzLjIxOSAxNTguMTMzLDI0OC4wMjMgMjIwLjY3MSwyNDguMDIzICIvPgo8cG9seWdvbiBzdHlsZT0iZmlsbDojQzBDMEMwOyIgcG9pbnRzPSIyMjAuNjcxLDI0OC4wMjMgMTg5LjIzOCwyNDguMDIzIDE4OS4yMzgsMzEzLjIxOSAyMzMuMzE5LDMxMy4yMTkgIi8+CjxyZWN0IHg9IjgzLjM0IiB5PSIxMDAuNTIiIHN0eWxlPSJmaWxsOiMxQTFBMUE7IiB3aWR0aD0iMjEyLjEyIiBoZWlnaHQ9IjE1MC4yNSIvPgo8cmVjdCB4PSIxODkuMjQiIHk9IjEwMC41MiIgd2lkdGg9IjEwNi4yMiIgaGVpZ2h0PSIxNTAuMjUiLz4KPHJlY3QgeD0iOTcuODIiIHk9IjExNC42NSIgc3R5bGU9ImZpbGw6IzM1Q0NGRjsiIHdpZHRoPSIxODMuMTciIGhlaWdodD0iMTQyLjQ2Ii8+CjxyZWN0IHg9IjE4OS4yNCIgeT0iMTE0LjY1IiBzdHlsZT0iZmlsbDojMDBCQUZGOyIgd2lkdGg9IjkxLjc1IiBoZWlnaHQ9IjE0Mi40NiIvPgo8cmVjdCB4PSI4My4zNCIgeT0iMjIyLjE3IiBzdHlsZT0iZmlsbDojRkZGRkZGOyIgd2lkdGg9IjIxMi4xMiIgaGVpZ2h0PSI0My4zMyIvPgo8Zz4KCTxyZWN0IHg9IjE4OS4yNCIgeT0iMjIyLjE3IiBzdHlsZT0iZmlsbDojRTBFMEUwOyIgd2lkdGg9IjEwNi4yMiIgaGVpZ2h0PSI0My4zMyIvPgoJPGNpcmNsZSBzdHlsZT0iZmlsbDojRTBFMEUwOyIgY3g9IjE4OS40IiBjeT0iMjQxLjQzIiByPSI5LjMzOSIvPgo8L2c+CjxwYXRoIHN0eWxlPSJmaWxsOiNDMEMwQzA7IiBkPSJNMTg5LjQwMiwyMzIuMDkzYy0wLjA1NSwwLTAuMTA5LDAuMDA3LTAuMTY0LDAuMDA4djE4LjY2MWMwLjA1NSwwLjAwMSwwLjEwOCwwLjAwOCwwLjE2NCwwLjAwOCAgYzUuMTU4LDAsOS4zMzktNC4xODEsOS4zMzktOS4zMzlDMTk4Ljc0LDIzNi4yNzQsMTk0LjU1OSwyMzIuMDkzLDE4OS40MDIsMjMyLjA5M3oiLz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" />
+        </div>
+        <form class="login100-form validate-form" action="AddStudent" method="post">
             <span class="login100-form-title">Enter the student details:</span>
-            <table>
-                <tr><td>Roll Number:</td><td><input type="number" name="roll" placeholder="0000"/></td></tr>
-                <tr><td>First Name:</td><td><input type="text" name="name" required placeholder="Name"/></td></tr>
-                <tr><td>Email:</td><td><input type="email" name="email" required placeholder="abc@xyz.com"/></td></tr>
-                <tr><td>Sex:</td><td>
-                    <input type="radio" name="sex" value="M"/> Male
-                    <input type="radio" name="sex" value="F"/> Female
-                    <input type="radio" name="sex" value="O"/> Others
-                </td></tr>
-                <tr><td>Course:</td><td>
+            <div class="wrap-input100" data-validate = "123">
+                <input class="input100" type="number" name="roll" placeholder="Roll number">
+                <span class="focus-input100"></span>
+                <span class="symbol-input100">
+                    <i class="fa fa-user-circle" aria-hidden="true"></i>
+						</span>
+            </div>
+            <div class="wrap-input100" data-validate = "Enter your name here">
+                <input class="input100" type="text" name="name" placeholder="Firstname Lastname">
+                <span class="focus-input100"></span>
+                <span class="symbol-input100">
+							<i class="fa fa-address-card" aria-hidden="true"></i>
+						</span>
+            </div>
+            <div class="wrap-input100" data-validate = "abc@xyz.com">
+                <input class="input100" type="text" name="email" placeholder="Email">
+                <span class="focus-input100"></span>
+                <span class="symbol-input100">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
+            </div>
+            <div class="wrap-input100" data-validate = "">
+                <b>Sex:</b>
+                <label>
+                    <input type="radio" name="sex" value="M"/>
+                </label> Male
+                <label>
+                    <input type="radio" name="sex" value="F"/>
+                </label> Female
+                <label>
+                    <input type="radio" name="sex" value="O"/>
+                </label> Others
+            </div>
+            <div class="wrap-input100" data-validate = "abc@xyz.com">
+                <b>Course:</b>
+                <label>
                     <select name="course">
-                        <option>Java</option>
-                        <option>C#</option>
-                        <option>C++</option>
-                        <option>PHP</option>
-                        <option>Android</option>
-                        <option>Javascript</option>
-                        <option>Python</option>
+                    <option>Java</option>
+                    <option>C#</option>
+                    <option>C++</option>
+                    <option>PHP</option>
+                    <option>Android</option>
+                    <option>Javascript</option>
+                    <option>Python</option>
                     </select>
-                </td></tr>
-                <tr><td>Fee:</td><td><input type="number" name="fee" placeholder="0000"/></td></tr>
-                <tr><td>Paid:</td><td><input type="number" name="paid" placeholder="0000"/></td></tr>
-                <tr><td>Due:</td><td><input type="number" name="due" placeholder="0000"/></td></tr>
-                <tr><td>Address:</td><td><textarea name="address" style="width:300px;height:100px;"></textarea></td></tr>
-                <tr><td>Contact No:</td><td><input type="text" name="contact" placeholder="9876543210"/></td></tr>
-                <tr><td colspan="2" align="center"><input type="submit" class="btn btn-default" value="Save Student"/></td></tr>
-            </table>
+                </label>
+            </div>
+            <div class="wrap-input100" data-validate = "1234">
+                <input class="input100" type="number" name="fee" placeholder="Fee">
+                <span class="focus-input100"></span>
+                <span class="symbol-input100">
+                    <i class="fa fa-inr" aria-hidden="true"></i>
+						</span>
+            </div>
+            <div class="wrap-input100" data-validate = "1234">
+                <input class="input100" type="number" name="paid" placeholder="Amount paid">
+                <span class="focus-input100"></span>
+                <span class="symbol-input100">
+                    <i class="fa fa-inr" aria-hidden="true"></i>
+						</span>
+            </div>
+            <div class="wrap-input100" data-validate = "1234">
+                <input class="input100" type="number" name="due" placeholder="Amount due">
+                <span class="focus-input100"></span>
+                <span class="symbol-input100">
+                    <i class="fa fa-inr" aria-hidden="true"></i>
+						</span>
+            </div>
+            <div class="wrap-input100" data-validate = "Enter your address here">
+                <input class="input100" type="text" name="address" placeholder="City, State, Country">
+                <span class="focus-input100"></span>
+                <span class="symbol-input100">
+							<i class="fa fa-id-card" aria-hidden="true"></i>
+						</span>
+            </div>
+            <div class="wrap-input100" data-validate = "Enter your number here">
+                <input class="input100" type="number" name="contact" placeholder="9876543210">
+                <span class="focus-input100"></span>
+                <span class="symbol-input100">
+							<i class="fa fa-phone" aria-hidden="true"></i>
+						</span>
+            </div>
+            <div class="container-login100-form-btn">
+                <button class="login100-form-btn">
+                    Add
+                </button>
+            </div>
         </form>
     </div>
 </div>
