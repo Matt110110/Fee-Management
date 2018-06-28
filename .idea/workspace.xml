@@ -7,11 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25858cc4-727a-4e36-b3aa-98dd0ceaff29" name="Default" comment="Add student created">
-      <change afterPath="$PROJECT_DIR$/src/DeleteStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/deleteStudent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/invalidRoll.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feemanagement.iml" beforeDir="false" afterPath="$PROJECT_DIR$/feemanagement.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/feemanagement_war_exploded/UserMain.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/feemanagement_war_exploded/UserMain.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/feemanagement_war_exploded/WEB-INF/classes/DBUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/feemanagement_war_exploded/WEB-INF/classes/DBUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/feemanagement_war_exploded/WEB-INF/classes/DeleteStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/feemanagement_war_exploded/WEB-INF/classes/DeleteStudent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/feemanagement_war_exploded/WEB-INF/classes/SearchStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/feemanagement_war_exploded/WEB-INF/classes/SearchStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/feemanagement/DBUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/feemanagement/DBUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/feemanagement/DeleteStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/feemanagement/DeleteStudent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/feemanagement/SearchStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/feemanagement/SearchStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DBUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DBUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeleteStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeleteStudent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SearchStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchStudent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/UserMain.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/UserMain.html" afterDir="false" />
     </list>
@@ -42,8 +51,26 @@
       <file leaf-file-name="SearchStudent.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SearchStudent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+            <state relative-caret-position="424">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="invalidRoll.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/invalidRoll.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="89" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBUser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DBUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="458">
+              <caret line="85" column="34" selection-start-line="85" selection-start-column="34" selection-end-line="85" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -51,8 +78,8 @@
       <file leaf-file-name="UserMain.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/UserMain.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="62" column="57" lean-forward="true" selection-start-line="62" selection-start-column="57" selection-end-line="62" selection-end-column="57" />
+            <state relative-caret-position="400">
+              <caret line="62" column="60" selection-start-line="62" selection-start-column="60" selection-end-line="62" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -60,8 +87,34 @@
       <file leaf-file-name="DeleteStudent.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DeleteStudent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="391">
+              <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deleteStudent.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/deleteStudent.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="searchStudent.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/searchStudent.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="48" column="7" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="48" selection-end-column="7" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,10 +162,12 @@
         <option value="$PROJECT_DIR$/src/DBAdmin.java" />
         <option value="$PROJECT_DIR$/web/addStudent.html" />
         <option value="$PROJECT_DIR$/web/searchStudent.html" />
-        <option value="$PROJECT_DIR$/src/DBUser.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/SearchStudent.java" />
+        <option value="$PROJECT_DIR$/web/deleteStudent.html" />
         <option value="$PROJECT_DIR$/web/UserMain.html" />
+        <option value="$PROJECT_DIR$/src/DBUser.java" />
+        <option value="$PROJECT_DIR$/web/invalidRoll.html" />
+        <option value="$PROJECT_DIR$/src/SearchStudent.java" />
         <option value="$PROJECT_DIR$/src/DeleteStudent.java" />
       </list>
     </option>
@@ -147,8 +202,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,13 +219,17 @@
             </path>
             <path>
               <item name="feemanagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="feemanagement" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="feemanagement" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -348,6 +408,7 @@
       <workItem from="1530069264350" duration="18000" />
       <workItem from="1530121888639" duration="5718000" />
       <workItem from="1530179809738" duration="3860000" />
+      <workItem from="1530189096806" duration="2520000" />
     </task>
     <task id="LOCAL-00001" summary="Cosmetic changes for the index.jsp">
       <created>1529660890521</created>
@@ -381,7 +442,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66354000" />
+    <option name="totallyTimeSpent" value="68874000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -407,10 +468,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32985386" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32985386" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32985386" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32985386" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48329854" visible="true" weight="0.1924307" />
-      <window_info active="true" id="Web" order="6" sideWeight="0.51670146" side_tool="true" visible="true" weight="0.1924307" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48225468" visible="true" weight="0.1945629" />
+      <window_info id="Web" order="6" sideWeight="0.5177453" side_tool="true" weight="0.1945629" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -435,20 +496,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Add student created" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/AdminLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DBUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DBAdmin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -723,17 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/searchStudent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/addStudent.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -765,31 +801,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DBUser.java">
+    <entry file="file://$PROJECT_DIR$/web/searchStudent.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="815">
-          <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SearchStudent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        <state relative-caret-position="782">
+          <caret line="48" column="7" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="48" selection-end-column="7" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/UserMain.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="62" column="57" lean-forward="true" selection-start-line="62" selection-start-column="57" selection-end-line="62" selection-end-column="57" />
+        <state relative-caret-position="400">
+          <caret line="62" column="60" selection-start-line="62" selection-start-column="60" selection-end-line="62" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DBUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="85" column="34" selection-start-line="85" selection-start-column="34" selection-end-line="85" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SearchStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/invalidRoll.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="89" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/deleteStudent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DeleteStudent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="391">
+          <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
         </state>
       </provider>
     </entry>

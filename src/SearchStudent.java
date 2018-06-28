@@ -49,24 +49,8 @@ public class SearchStudent extends HttpServlet {
                 out.println("</html>");
             } else {
                 // TODO : Create proper pages to redirect.
-                PrintWriter out = response.getWriter();
-                out.println("<html>");
-                out.println("<head>");
-                out.println("<title>Error</title>");
-                out.println("<link rel=\"stylesheet\" type=\"text/css\" href=\"vendor/bootstrap/css/bootstrap.min.css\">");
-                out.println("</head>");
-                out.println("<body>");
-                out.println("<div class='container'>");
-                out.println("<center>");
-                out.println("<h1 class=\"alert-danger\">No records could be found for the given Roll no.</h1>");
-                out.println("<a href='searchStudent.html'><button class='btn-danger btn-lg'>Return...</button></a>");
-                out.println("</center>");
-                out.println("</div>");
-                out.println("</body>");
-                out.println("</html>");
+                response.sendRedirect("invalidRoll.html");
             }
-            // TODO : Remove debugging code and add proper code for printing Student details to the screen.
-            System.out.println(s.getRollno() + s.getName() + s.getEmail() + s.getSex() + s.getCourse() + s.getFee() + s.getPaid() + s.getDue() + s.getAddress() + s.getContact());
         } catch (SQLException | ClassNotFoundException e) {
             e.printStackTrace();
         }

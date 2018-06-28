@@ -78,4 +78,11 @@ public class DBUser {
         cn.close();
         return s;
     }
+
+    public static int deleteStudent(Student s) throws SQLException, ClassNotFoundException {
+        Connection cn = createConnection();
+        ps = cn.prepareStatement("DELETE FROM studDetails WHERE rollNo=(?)");
+        ps.setInt(1, s.getRollno());
+        return ps.executeUpdate();
+    }
 }
