@@ -7,10 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25858cc4-727a-4e36-b3aa-98dd0ceaff29" name="Default" comment="Add student created">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/feemanagement_war_exploded/WEB-INF/classes/DBUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/feemanagement_war_exploded/WEB-INF/classes/DBUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/feemanagement/DBUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/feemanagement/DBUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DBUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DBUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SearchStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchStudent.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -49,8 +45,8 @@
       <file leaf-file-name="UserMain.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/UserMain.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="60" column="58" lean-forward="true" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
+            <state relative-caret-position="1020">
+              <caret line="60" column="58" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -58,8 +54,8 @@
       <file leaf-file-name="addStudent.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/addStudent.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="56" selection-start-line="50" selection-end-line="56" />
+            <state relative-caret-position="119">
+              <caret line="7" column="89" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="89" />
             </state>
           </provider>
         </entry>
@@ -67,8 +63,8 @@
       <file leaf-file-name="searchStudent.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/searchStudent.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+            <state relative-caret-position="544">
+              <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -80,8 +76,17 @@
       <file leaf-file-name="SearchStudent.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SearchStudent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="357">
+              <caret line="52" column="58" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddStudent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AddStudent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="33" column="39" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="33" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -89,8 +94,8 @@
       <file leaf-file-name="loginUser.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/loginUser.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="35" selection-end-column="22" />
+            <state relative-caret-position="493">
+              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="35" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -98,7 +103,7 @@
       <file leaf-file-name="DBUser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DBUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
+            <state relative-caret-position="815">
               <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
             </state>
           </provider>
@@ -184,7 +189,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,8 +216,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -389,6 +394,7 @@
       <workItem from="1530027310162" duration="4182000" />
       <workItem from="1530069264350" duration="18000" />
       <workItem from="1530121888639" duration="5718000" />
+      <workItem from="1530179809738" duration="1453000" />
     </task>
     <task id="LOCAL-00001" summary="Cosmetic changes for the index.jsp">
       <created>1529660890521</created>
@@ -422,10 +428,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62494000" />
+    <option name="totallyTimeSpent" value="63947000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
@@ -447,10 +454,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32985386" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32985386" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32985386" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48442367" visible="true" weight="0.19029851" />
-      <window_info id="Web" order="6" sideWeight="0.5155763" side_tool="true" visible="true" weight="0.19029851" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32985386" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32985386" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48286605" visible="true" weight="0.1924307" />
+      <window_info id="Web" order="6" sideWeight="0.51713395" side_tool="true" weight="0.1924307" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -763,13 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AddStudent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/InvalidUname.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -786,29 +786,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/UserMain.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="60" column="58" lean-forward="true" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/addStudent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="56" selection-start-line="50" selection-end-line="56" />
+        <state relative-caret-position="1020">
+          <caret line="60" column="58" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/loginUser.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="35" selection-end-column="22" />
+        <state relative-caret-position="493">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="35" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/searchStudent.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+        <state relative-caret-position="544">
+          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -818,15 +811,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DBUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
+        <state relative-caret-position="815">
           <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AddStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="33" column="39" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="33" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/addStudent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="89" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="89" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SearchStudent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="357">
+          <caret line="52" column="58" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
         </state>
       </provider>
     </entry>
