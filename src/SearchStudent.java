@@ -10,7 +10,13 @@ import java.sql.SQLException;
 @WebServlet(name = "SearchStudent", urlPatterns = {"/SearchStudent"})
 public class SearchStudent extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        int roll = Integer.parseInt(request.getParameter("roll"));
+        int roll;
+        if (request.getParameter("roll").equals("")) {
+            roll = 0;
+        } else {
+            roll = Integer.parseInt(request.getParameter("roll"));
+        }
+
         Student s = new Student();
         s.setRollno(roll);
         try {
