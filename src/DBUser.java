@@ -85,7 +85,16 @@ public class DBUser {
         return ps.executeUpdate();
     }
 
-    public static Student getDues(Student s) {
+    public static Student getDues(Student s) throws SQLException, ClassNotFoundException {
+        Connection cn = createConnection();
+        ps = cn.prepareStatement("SELECT name,course,due FROM studDetails WHERE rollNo=(?)");
+        ps.setInt(1, s.getRollno());
+        ResultSet rs = ps.executeQuery();
+        while (rs.next()) {
+            s.setName(rs.getString(1));
+            s.setCourse(rs.getString(2));
+            s.setDue(rs.getInt(3));
+        }
         return s;
     }
 }

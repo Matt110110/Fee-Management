@@ -42,7 +42,7 @@ public class SearchStudent extends HttpServlet {
                 out.println("<p>Due : "+s.getDue()+"</p>");
                 out.println("<p>Address : "+s.getAddress()+"</p>");
                 out.println("<p>Contact : "+s.getContact()+"</p>");
-                out.println("<a href='searchStudent.html'><button class='btn-primary btn-lg'>Back</button></a>");
+                out.println("<a href='UserMain.html'><button class='btn-primary btn-lg'>Back</button></a>");
                 out.println("</center>");
                 out.println("</div>");
                 out.println("</body>");
