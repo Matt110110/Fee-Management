@@ -84,4 +84,8 @@ public class DBUser {
         ps.setInt(1, s.getRollno());
         return ps.executeUpdate();
     }
+
+    public static Student getDues(Student s) {
+        return s;
+    }
 }
